@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/zed_components/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/zed_interfaces/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/zed2_custom_msg/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/t42_gripper_hardware/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/senseglove_hardware_interface/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/senseglove_shared_resources/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/senseglove_hardware_builder/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/senseglove_hardware/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/ros2_bag_to_image/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/baxter_maintenance_msgs/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/baxter_core_msgs/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/install/apriltag_ros/include/**",
+        "/home/ubb/bin/fasstdds_ros2/install/rmw_fastrtps_dynamic_cpp/include/**",
+        "/home/ubb/bin/fasstdds_ros2/install/rmw_fastrtps_cpp/include/**",
+        "/home/ubb/bin/fasstdds_ros2/install/rosidl_typesupport_fastrtps_c/include/**",
+        "/home/ubb/bin/fasstdds_ros2/install/rosidl_typesupport_fastrtps_cpp/include/**",
+        "/home/ubb/bin/fasstdds_ros2/install/rmw_fastrtps_shared_cpp/include/**",
+        "/opt/ros/galactic/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/baxter_stack/baxter_common_ros2/baxter_bridge/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/ros2bag_tools/ros2_bag_to_image/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/senseglove_ros2_ws/src/hardware_interface/senseglove_hardware/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/senseglove_ros2_ws/src/hardware_interface/senseglove_hardware_builder/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/senseglove_ros2_ws/src/hardware_interface/senseglove_hardware_interface/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/t42_gripper/t42_gripper_hardware/include/**",
+        "/home/ubb/Documents/Baxter_isaac/ROS2/src/zed_stack/apriltag_ros2/apriltag_ros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

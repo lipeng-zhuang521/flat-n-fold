@@ -1,0 +1,3 @@
+# ninja log v5
+1	12153	1724639279900514687	/home/leo/Project/Point/Point-BERT-master/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/chamfer_cuda.o	b7ad8a7648709f47
+0	28733	1724639296484479345	/home/leo/Project/Point/Point-BERT-master/extensions/chamfer_dist/build/temp.linux-x86_64-cpython-37/chamfer.o	b7c43c2a5d921ef8
