@@ -18,3 +18,8 @@ Intrinsic parameters and external paramerters (origin is headset) of three camer
 
 ## Subtask decomposition benchmark
 * Code of data processing, groundtruth extraction and metrics evaluation for one baseline: [Universal Visual Decomposer](https://zcczhang.github.io/UVD/) are provided in UVD folder.
+
+## Acknowledgments
+* [Pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch)
+* [Pointbert](https://github.com/Julie-tang00/Point-BERT)
+* [Universal Visual Decomposer](https://zcczhang.github.io/UVD/)
