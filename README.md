@@ -8,7 +8,7 @@ We provided 1212 human and 887 robot demonstrations of flattening and folding 44
 ## Dataset:
 * Dataset can be download at: https://gla-my.sharepoint.com/:f:/g/personal/2658047z_student_gla_ac_uk/Ekgx_o8q6ZZBtxusMwrP8zoBt2FkZL9vwq3hqe5c1CyHSQ. Some samples of data and data description are also provided.
 * For each data sequences, rgbd images and action information are provided. Intrinsic parameters and external paramerter (origin is headset) of three cameras are provided. Pointclouds can be generated through preate_graspvisulize.ipynb in Pointcloud folder. Merged pointclouds of three cameras and action visulization can be gernerated through merge_three_camera.py in Pointcloud folder.
-* Besides, 
+* Besides, it's worth noting that the origin of action information of our robot demonstration is base of Baxter. The orgin of action information of our human demonstration is headset. The transformations of transition and rotation are also provided in Pointcloud folder.
 
 ## Grasping point prediction benchmark
 * Code for two baselines: [Pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) and [Pointbert](https://github.com/Julie-tang00/Point-BERT) are provided in Grasping_point folder.
