@@ -6,7 +6,7 @@ This repository is published along with a paper Flat’n’Fold: A Diverse Multi
 We provided 1212 human and 887 robot demonstrations of flattening and folding 44 garments across 8 categories. Also, we establish two new benchmarks for grasping point prediction and subtask decomposition.
 
 ## Harware:
-Intrinsic parameters and external paramerter (origin is headset) of three cameras, STL files of the grippers are provided in hardware folder.
+Intrinsic parameters and external paramerters (origin is headset) of three cameras, STL files of the grippers are provided in hardware folder.
 
 ## Dataset:
 * Dataset can be download at: https://gla-my.sharepoint.com/:f:/g/personal/2658047z_student_gla_ac_uk/Ekgx_o8q6ZZBtxusMwrP8zoBt2FkZL9vwq3hqe5c1CyHSQ. Some samples of data and data description are also provided.
