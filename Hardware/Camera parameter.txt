@@ -1,0 +1,30 @@
+Camera parameter
+front camera:
+intrinsic parameter: (1070.1000, 1070.4301, 939.8100, 549.6520)
+external parameter for human demonstaion:
+translation_zed = [0.139, -0.68, -1.525] 
+quaternion_zed =  [0.690, 0.126, 0.084, -0.708]
+external parameter for robot demonstaion:
+translation_zed = [0.139, -0.68, -1.525] 
+quaternion_zed =  [0.690, 0.126, 0.084, -0.708]
+
+top camera:
+intrinsic parameter: (1060.4000, 1060.0100, 946.0600, 496.6630)
+external parameter for human demonstaion:
+translation_zedtop = [-0.508, -0.313, -0.84]
+quaternion_zedtop = [0.652, 0.615, 0.329, 0.297]
+external parameter for robot demonstaion:
+translation_zedtop_ryd = [-0.471, -0.308, -0.81] 
+quaternion_zedtop_ryd = [0.655,0.611, 0.305, 0.323]
+
+side camera:
+intrinsic parameter: (1066.4000, 1065.9900, 970.8000, 547.1950)
+external parameter for human demonstaion:
+translation_zedside = [1.0, -1.030, -0.01] 
+quaternion_zedside =  [0.385, -0.687, -0.588,  0.186]
+external parameter for robot demonstaion:
+translation_zedside_ryd = [0.99, -1.03, 0.05]  
+quaternion_zedside_ryd =  [0.408, -0.662, -0.602,  0.182]
+                    
+                    
+
