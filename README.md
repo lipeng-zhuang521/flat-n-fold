@@ -27,3 +27,12 @@ Intrinsic parameters and external paramerters (origin is headset) of three camer
 ## Citation
 if you are using Flat'n'Fold dataset, please consider citing the follwing paper:
 
+    @misc{zhuang2024flatnfolddiversemultimodaldataset,
+            title={Flat'n'Fold: A Diverse Multi-Modal Dataset for Garment Perception and Manipulation}, 
+            author={Lipeng Zhuang and Shiyu Fan and Yingdong Ru and Florent Audonnet and Paul Henderson and Gerardo Aragon-Camarasa},
+            year={2024},
+            eprint={2409.18297},
+            archivePrefix={arXiv},
+            primaryClass={cs.RO},
+            url={https://arxiv.org/abs/2409.18297}
+    }
