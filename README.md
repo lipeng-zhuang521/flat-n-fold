@@ -1,5 +1,5 @@
-
 Flat’n’Fold: A Diverse Multi-Modal Dataset for Garment Perception and Manipulation
+
 Paper Abstract:
 This repository is published along with a paper Flat’n’Fold: A Diverse Multi-Modal Dataset for Garment Perception and Manipulation.
 We provided 1212 human and 887 robot demonstrations of flattening and folding 44 garments across 8 categories. Also, we establish two new benchmarks for grasping point prediction and subtask decomposition.
