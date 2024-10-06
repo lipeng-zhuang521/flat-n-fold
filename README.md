@@ -5,7 +5,7 @@
 This repository is published along with a paper Flat’n’Fold: A Diverse Multi-Modal Dataset for Garment Perception and Manipulation.
 We provided 1212 human and 887 robot demonstrations of flattening and folding 44 garments across 8 categories. Also, we establish two new benchmarks for grasping point prediction and subtask decomposition.
 
-## Harware
+## Hardware
 Intrinsic parameters and external paramerters (origin is headset) of three cameras, STL files of the grippers are provided in hardware folder.
 
 ## Dataset
@@ -14,7 +14,7 @@ Intrinsic parameters and external paramerters (origin is headset) of three camer
 * Besides, it's worth noting that the origin of action information of our robot demonstration is base of Baxter. The orgin of action information of our human demonstration is headset. The transformations of transition and rotation are also provided in Pointcloud folder.
 
 ## Grasping point prediction benchmark
-* We provided a sub-dataset for grasping point task which contains pointclouds and their correspoinding grasping point (both position and rotation). Datasets are provided in https://gla-my.sharepoint.com/:f:/g/personal/2658047z_student_gla_ac_uk/Ekgx_o8q6ZZBtxusMwrP8zoBt2FkZL9vwq3hqe5c1CyHSQ .
+* We provided a sub-dataset for grasping point task which contains merged pointclouds and their correspoinding grasping point (both position and rotation). Datasets are provided in https://gla-my.sharepoint.com/:f:/g/personal/2658047z_student_gla_ac_uk/Ekgx_o8q6ZZBtxusMwrP8zoBt2FkZL9vwq3hqe5c1CyHSQ .
 * We also provided codes for how to create the sub-dataset from original dataset, including grasping point extraction, pointcloud merging and downsampling, grasping points' position and orientation calculation and so on. 
 * Code for two baselines: [Pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) and [Pointbert](https://github.com/Julie-tang00/Point-BERT) are provided in Grasping_point folder, where finetune_rand.py is for 'random split' and finetune_class.py is for 'split by garments'.
 
