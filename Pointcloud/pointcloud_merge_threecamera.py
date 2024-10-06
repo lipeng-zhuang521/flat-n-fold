@@ -75,12 +75,12 @@ def transform_point_cloud(pcd, translation, quaternion):
 
 base_dir ='/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david_datacollect/baxter/drag_red45/pointcloud_transformed'
 pointcloud_folder = "/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david_datacollect/baxter/drag_red45/pointcloud"
-# pointcloud_top_folder = "/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david_datacollect/baxter/fold_red45/pointcloud_top"
-# pointcloud_side_folder = "/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david2/407814/pointcloud_side"
+pointcloud_top_folder = "/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david_datacollect/baxter/fold_red45/pointcloud_top"
+pointcloud_side_folder = "/home/ubb/Documents/Baxter_isaac/ROS2/src/experiment_recorder/data/baxter/david2/407814/pointcloud_side"
     
 pointcloud_files = sorted(os.listdir(pointcloud_folder))
-# pointcloud_top_files = sorted(os.listdir(pointcloud_top_folder))
-# pointcloud_side_files = sorted(os.listdir(pointcloud_side_folder))
+pointcloud_top_files = sorted(os.listdir(pointcloud_top_folder))
+pointcloud_side_files = sorted(os.listdir(pointcloud_side_folder))
     
 # pointcloud_top_timestamps = [int(f.split('.')[0]) for f in pointcloud_top_files]
 # pointcloud_side_timestamps = [int(f.split('.')[0]) for f in pointcloud_side_files]
@@ -89,8 +89,8 @@ pointcloud_files = sorted(os.listdir(pointcloud_folder))
 for index in range(len(pointcloud_files)):
 # for pointcloud_file in posintcloud_files:
     pointcloud_file = pointcloud_files[index]
-    # pointcloud_top_file = pointcloud_top_files[index]
-    # pointcloud_side_file = pointcloud_side_files[index]
+    pointcloud_top_file = pointcloud_top_files[index]
+    pointcloud_side_file = pointcloud_side_files[index]
 # target_timestamp = int(pointcloud_file.split('.')[0])
         
 # nearest_top_timestamp = find_nearest_timestamp(target_timestamp, pointcloud_top_timestamps)
@@ -99,8 +99,8 @@ for index in range(len(pointcloud_files)):
     pointcloud_path = os.path.join(pointcloud_folder, pointcloud_file)
     # top_pointcloud_path = os.path.join(pointcloud_top_folder, f"{nearest_top_timestamp}.pcd")
     # side_pointcloud_path = os.path.join(pointcloud_side_folder, f"{nearest_side_timestamp}.pcd")
-    # top_pointcloud_path = os.path.join(pointcloud_top_folder, pointcloud_top_file)
-    # side_pointcloud_path = os.path.join(pointcloud_side_folder, pointcloud_side_file)
+    top_pointcloud_path = os.path.join(pointcloud_top_folder, pointcloud_top_file)
+    side_pointcloud_path = os.path.join(pointcloud_side_folder, pointcloud_side_file)
         
 # print(f"Processing {pointcloud_file}:")
 # print(f"Nearest top point cloud: {nearest_top_timestamp}.pcd")
@@ -179,8 +179,8 @@ for index in range(len(pointcloud_files)):
 
 # Load point clouds
     front_pcd = load_point_cloud(pointcloud_path)
-    # top_pcd = load_point_cloud(top_pointcloud_path)
-    # side_pcd = load_point_cloud(side_pointcloud_path)
+    top_pcd = load_point_cloud(top_pointcloud_path)
+    side_pcd = load_point_cloud(side_pointcloud_path)
 
 # Transform top and side point clouds
 # top_rotation = [-0.03261978179216385, -1.5211526155471802, 0.04351048171520233]
@@ -245,8 +245,8 @@ for index in range(len(pointcloud_files)):
 # cropped_pcd_side = apply_aabb_cropping(side_pcd, min_bound, max_bound)
 
     transformed_pcd_zed = transform_point_cloud(front_pcd, translation_zed, quaternion_zed)
-    # transformed_pcd_zedtop = transform_point_cloud(top_pcd, translation_zedtop_ryd, quaternion_zedtop_ryd)
-    # transformed_pcd_zedside = transform_point_cloud(side_pcd, translation_zedside_ryd, quaternion_zedside_ryd)
+    transformed_pcd_zedtop = transform_point_cloud(top_pcd, translation_zedtop_ryd, quaternion_zedtop_ryd)
+    transformed_pcd_zedside = transform_point_cloud(side_pcd, translation_zedside_ryd, quaternion_zedside_ryd)
 
 
 # transformed_pcd_zed = transform_point_cloud(cropped_pcd_zed, translation_zed, quaternion_zed)
