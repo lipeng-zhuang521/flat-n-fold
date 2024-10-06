@@ -14,7 +14,9 @@ Intrinsic parameters and external paramerters (origin is headset) of three camer
 * Besides, it's worth noting that the origin of action information of our robot demonstration is base of Baxter. The orgin of action information of our human demonstration is headset. The transformations of transition and rotation are also provided in Pointcloud folder.
 
 ## Grasping point prediction benchmark
-* Code for two baselines: [Pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) and [Pointbert](https://github.com/Julie-tang00/Point-BERT) are provided in Grasping_point folder.
+* We provided a sub-dataset for grasping point task which contains pointclouds and their correspoinding grasping point (both position and rotation). Datasets are provided in data subfolder in Grasping_point folder.
+* We also provided codes for how to create the sub-dataset from original dataset, including grasping point extraction, pointcloud merging and downsampling, grasping points' position and orientation calculation and so on. 
+* Code for two baselines: [Pointnet++](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) and [Pointbert](https://github.com/Julie-tang00/Point-BERT) are provided in Grasping_point folder, where finetune_rand.py is for 'random split' and finetune_class.py is for 'split by garments'.
 
 ## Subtask decomposition benchmark
 * Code of data processing, groundtruth extraction and metrics evaluation for one baseline: [Universal Visual Decomposer](https://zcczhang.github.io/UVD/) are provided in UVD folder.
