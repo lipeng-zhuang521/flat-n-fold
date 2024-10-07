@@ -10,7 +10,7 @@ Intrinsic parameters and external paramerters (origin is headset) of three camer
 
 ## Dataset
 * Dataset can be download at: https://gla-my.sharepoint.com/:f:/g/personal/2658047z_student_gla_ac_uk/Ekgx_o8q6ZZBtxusMwrP8zoBt2FkZL9vwq3hqe5c1CyHSQ. Some samples of data and data description are also provided.
-* For each data sequences, rgbd images and action information are provided. Pointclouds can be generated through pcreate_gmatch.ipynb in Pointcloud folder. Merged pointclouds of three cameras and action visulization can be gernerated through merge_three_camera.py in Pointcloud folder.
+* For each data sequences, rgbd images and action information are provided. Pointclouds can be generated through pcreate_gmatch.ipynb in Pointcloud folder. Merged pointclouds of three cameras and action visulization can be gernerated through merge_three_camera.py and pointcloud_convert_match.py in Pointcloud folder.
 * Besides, it's worth noting that the origin of action information of our robot demonstration is base of Baxter. The orgin of action information of our human demonstration is headset. The transformations of transition and rotation are also provided in Pointcloud folder.
 
 ## Grasping point prediction benchmark
